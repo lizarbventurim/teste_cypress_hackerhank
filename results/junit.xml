@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.678" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-11-02T13:46:47" tests="0" file="cypress/e2e/spec.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Financial Report Test" timestamp="2024-11-02T13:46:47" tests="4" time="0.668" failures="0">
+    <testcase name="Financial Report Test Clicking a transaction should open a modal" time="0.482" classname="Clicking a transaction should open a modal">
+    </testcase>
+    <testcase name="Financial Report Test Transaction modal can be closed by clicking the X button" time="0.080" classname="Transaction modal can be closed by clicking the X button">
+    </testcase>
+    <testcase name="Financial Report Test Transaction modal should contain the title &quot;Transaction Information&quot;" time="0.089" classname="Transaction modal should contain the title &quot;Transaction Information&quot;">
+    </testcase>
+    <testcase name="Financial Report Test The main page should contain up to 10 transactions" time="0.009" classname="The main page should contain up to 10 transactions">
+    </testcase>
+  </testsuite>
+</testsuites>

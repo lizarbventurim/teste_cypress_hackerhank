@@ -1,0 +1,19 @@
+{
+  "name": "express-static-content",
+  "version": "0.1.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "npm install && node index.js &",
+    "test": "npm start && wait-on http://localhost:8000 && cypress run"
+  },
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.1.0",
+    "mocha-junit-reporter": "^2.2.0",
+    "wait-on": "^7.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

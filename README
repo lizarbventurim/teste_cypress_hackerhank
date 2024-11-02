@@ -1,0 +1,25 @@
+# Cypress Automation
+
+A sample financial report page is available to test. You will need to automate four scenarios, all based on fictional requirements.
+
+The requirements are: 
+
+1. Clicking a transaction should open a modal
+1. Transaction modal can be closed by clicking the X button
+1. Transaction modal should contain the title "Transaction Information"
+1. The main page should contain up to 10 transactions
+ 
+## Instructions to Access the App
+ 
+You first need to start the Run command from the top menu on the IDE. That will allow you to open the page on a new tab.
+
+The app will be started and a pop-up will be displayed at the bottom-right of the screen allowing you to open the app.  You can also use the indicated address to access on your browser.
+
+When using Cypress, simply use `cy.visit('/')` as it is already configured to point to `http://localhost:8000`, the external address provided after clicking the `run` command should be used only for yourself while using it to automate. 
+
+> Note that the terminal opened when running the `run` command needs to remain opened to access the application preview and run the `test` command.
+
+## Running the Tests
+On the IDE, click on run > Test
+The output will be available on the terminal window.
+
